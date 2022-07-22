@@ -1,151 +1,114 @@
 <template>
-          <section id="resume">
- <div class="timeline">
-    <ul>
-      <li>
-        <span>3rd January 2020</span>
-        <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
+           <!--START OF RESUME SECTION-->
+        <section id="resume" class="resume-section bg-dark pt-110 pb-150 text-white">
+        <div class="resume-area pt-110 ph-80" >
+         <div class="container-resume" data-aos="fade-up">
+    <div class="section-title text-center">
+      <h2 class="">Resume</h2>
+      <p>.</p>
+    </div>
+    <div class="row" id="sum">
+      <div class="col-lg-6 timeline-wrap left-timeline" data-aos="fade-up-left">
+      <h3 class="resume-title">Summary</h3>
+      <div class="resume-items pd-0 rounded">
+        <h4>Live Maweni</h4>
+        <p><em>I'm Live Maweni cuurently schooling at Life Choices Academy Coding Bootcamp ,I live in Cape Town and I'm 19 years old .</em>
+        </p>
+        <p></p>
+        <ul>
+          <li>22 Saint Street, Delft,CP</li>
+          <li>(+27)672300069</li>
+          <li>Willing to Relocate: Yes</li>
+          <li>saliwalive@gmail.com</li>
+        </ul>
+        <p></p>
+      </div>
+      </div>
+      <div class="row d-flex justify-content-end timeline-wrap right-timeline" data-aos="fade-up-right" id="educ">
+         <div class="col-lg-6">
+      <h3 class="resume-title">Education</h3>
+      <div class="resume-items rounded">
+        <h4>Matriculated</h4>
+        <h5 style="font-size: 16px;
+            background: #effbf9;
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+           color: #34b7a7;">2021-2022</h5>
+        <p><em> Matriculated in Maitland Secondary School located in Cape Town Maitland.</em></p>
+        <p>Matriculated with a Bachelor
+         <br> Major Subject : <ul style="list-style-type: ; none">
+            <li>PHISICAL SCIENCE</li>
+            <li>PURE MATH</li>
+            <li>ACCOUNTIONG</li>
+            <li>LIFE SCIENCE</li>
+          </ul>
+        </p>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="row" id="train-b">
+      <div class="col-lg-6 timeline-wrap left-timeline" data-aos="fade-up-left">
+        <h3 class="resume-title">Training/Bootcamp</h3>
+        <div class="resume-items rounded">
+          <h4>Web Development</h4>
+          <h5 style="font-size: 16px;
+              background: #effbf9;
+              padding: 5px 15px;
+              display: inline-block;
+              font-weight: 600;
+              margin-bottom: 10px;
+              color: #34b7a7;">2022-2023</h5>
+          <p><em>Life Choices ,Cape Town</em></p>
+          <p></p>
+          <ul>
+            <li>Most of my front-end development was groomed .</li>
+            <li>Build more then 6 projects & tasks at a given time while under pressure .</li>
+            <li>Recommended by most developers I've worked with during team colaborations .</li>
+            <li>Created & updated data bases for 2 companies who were satisfied with the results .</li>
+          </ul>
+          <p></p>
         </div>
-      </li>
-      <li>
-        <span>21st Jun 2019</span>
-        <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
-        </div>
-      </li>
-      <li>
-        <span>15th April 2018</span>
-        <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
-        </div>
-      </li>
-      <li>
-        <span>22nd Mars 2017</span>
-        <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
-          </p>
-        </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
-</section>
+  </div>
+        </section>
 </template>
 <script>
 export default {
-    
+    name: 'Resume'
 }
+
 </script>
 <style>
-    /*Start of Nav Bar*/
-*{
-    margin: auto;
-    padding: 0%;
-    font-family: 'Poppins', sans-serif;
+#resume {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: fit-content;
+  padding-top: 110px;
+  padding: 30px;
 }
-body{
-    background:#0a2a43;
-    min-height: 1500px;
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #effbf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #34b7a7;
 }
-section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow:hidden;
-    
-}
-
-
-/*End of Nav Bar*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*, html,body{
-  padding:0px;
-  margin:0px;
-  box-sizing:border-box;
-  font-family:'Poppins', sans-serif;
-  perspective:800px;
-}
-body{
-  background-color:#227093;
-  width:100%;
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-.timeline{
-  width:800px;
-  background-color:#072736;
-  color:#fff;
-  padding:30px 20px;
-  box-shadow:0px 0px 10px rgba(0,0,0,.5);
-}
-.timeline ul{
-  list-style-type:none;
-  border-left:2px solid #094a68;
-  padding:10px 5px;
-}
-.timeline ul li{
-  padding:20px 20px;
-  position:relative;
-  cursor:pointer;
-  transition:.5s;
-}
-.timeline ul li span{
-  display:inline-block;
-  background-color:#1685b8;
-  border-radius:25px;
-  padding:2px 5px;
-  font-size:15px;
-  text-align:center;
-}
-.timeline ul li .content h3{
-  color:#34ace0;
-  font-size:17px;
-  padding-top:5px;
-}
-.timeline ul li .content p{
-  padding:5px 0px 15px 0px;
-  font-size:15px;
-}
-.timeline ul li:before{
-  position:absolute;
-  content:'';
-  width:10px;
-  height:10px;
-  background-color:#34ace0;
-  border-radius:50%;
-  left:-11px;
-  top:28px;
-  transition:.5s;
-}
-.timeline ul li:hover{
-  background-color:#071f2a;
-}
-.timeline ul li:hover:before{
-  background-color:#0F0;
-  box-shadow:0px 0px 10px 2px #0F0;
-}
-@media (max-width:300px){
-  .timeline{
-    width:100%;
-    padding:30px 5px 30px 10px;
-  }
-  .timeline ul li .content h3{
-    color:#34ace0;
-    font-size:15px;
-  }
-
+.resume-items {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(0, 0, 0, 1) 100%,
+  rgba(0, 212, 255, 1) 100%
+  );
 }
 </style>

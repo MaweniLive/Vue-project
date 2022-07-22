@@ -1,11 +1,9 @@
 <template>
-    <div>
-        
-    </div>
+   <Skills />
 </template>
 <script>
 export default {
-    name: 'Contact'
+    
 }
 </script>
 <style>
